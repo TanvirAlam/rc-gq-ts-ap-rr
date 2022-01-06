@@ -24,3 +24,21 @@
 P.S: 
 - The `common` folder has all global stuff that are used by all components and pages
 - Know that `react-router-dom` does not support switch anymore, use the following using `element` or `component`
+
+## Interfaces:
+
+- Interfaces: `Creating new folder in common, interfaces that will be shared by the entire application`
+
+## New Component Created:   
+
+- PostsGrid: `That maps all the posts array data and pass each item value to =>`
+    - PostsGridItem: `Shows each item with its props`
+        - Make sure this is how the props are passed in Typescript
+        `const PostsGridItem: React.FC<{post: Post}> = ({post} : {post: Post}) => {}`
+        - You can also create internal interface and pass it accordingly, clean code
+        ```
+        interface PostsGridProps {
+            posts: Post[]
+        }
+        const PostsGrid: React.FC<PostsGridProps> = ({ posts }: PostsGridProps) => {}
+        ```
