@@ -12,11 +12,13 @@
     - common: `For all global styled used or common styled shared by entire application`
     - components: `this is where all the self-contained reusable components`
         - component: `Single component`
-            - Name.comp.tsx: `Component`
-            - Name.style.ts: `StyleSheet from styled-component`
+            - name: `Folder for each component`
+                - Name.comp.tsx: `Component`
+                - Name.style.ts: `StyleSheet from styled-component`
     - pages: `Entire pages such as <About /> | <home />, they use the resource from components`
-        - Name.pages.tsx: `Page for each layouts`
-        - Name.style.ts: `Styles for each page`
+        - name: `Folder for each component`
+            - Name.pages.tsx: `Page for each layouts`
+            - Name.style.ts: `Styles for each page`
     - index.tsx: `React index, that renders the entire application`
 
 P.S: 
