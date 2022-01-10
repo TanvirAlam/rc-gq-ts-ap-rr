@@ -1,11 +1,12 @@
 import React from 'react'
+import PostsForm from '../../component/posts/posts-form/posts-form.comp';
 
 import { Container } from './about.style';
 
 const About: React.FC = () => {
     return (
         <Container>
-            <h1>ABOUT</h1>
+            <PostsForm />
         </Container>
     )
 }

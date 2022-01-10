@@ -1,6 +1,6 @@
 import React from 'react'
 import { Post } from '../../common/interfaces/posts.interface';
-import PostsGrid from '../../component/posts-grid/posts-grid.comp';
+import PostsGrid from '../../component/posts/posts-grid/posts-grid.comp';
 import { useGetPosts } from '../../hooks/posts/useGetPosts';
 
 import { Container } from './home.style';

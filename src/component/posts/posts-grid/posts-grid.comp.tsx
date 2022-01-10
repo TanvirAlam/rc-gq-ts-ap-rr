@@ -2,7 +2,7 @@ import React from 'react'
 
 import PostsGridItem from './posts-grid-item/posts-grid-item.comp';
 import { Container, Items } from './posts-grid.style';
-import { Post } from '../../common/interfaces/posts.interface';
+import { Post } from '../../../common/interfaces/posts.interface';
 
 interface PostsGridProps {
     posts: Post[]

@@ -7,6 +7,7 @@
 - react-router-dom
 - graphql
 - apollo-client
+- react-hook-form
 ## Folder Structure:
 
 - src
